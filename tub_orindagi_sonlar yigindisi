@@ -1,0 +1,22 @@
+Masala sharti:
+Hadlar soni ikkitadan kam bo'lmagan nol bilan tugaydigan natural sonlar ketma-ketligi berilgan. 
+Tartib nomerlari tub sonlar bo'lgan hadlarining yig'indisini aniqlaydigan programma tuzilsin.
+
+n = int(input(">>>")) 
+s=0              
+P=[]                  
+P.append(2)                            
+for i in range(3,n):   
+    bool=True         
+    for j in range(2,i-1):   
+       if i%j==0:     
+           bool=False 
+    if bool:                    
+       P.append(i) 
+tup_sonlar=[]
+for k in P:
+    m = (k+1)*100
+    tup_sonlar.append(m)
+    s+=m
+print(tup_sonlar)   
+print(f"Tub o'rindagi sonlar yig'indisi: {s}")   
