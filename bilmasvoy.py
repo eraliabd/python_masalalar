@@ -1,4 +1,4 @@
-Masala sharti:
+"""Masala sharti:
 Bilmasvoy matematika darsida
 Bilmasvoy matematika darsida sondan 1 ni ayirishni o’rgangan edi. U darsdan chiqib uyga borgancha o’qituvchisi o’rgatgan ba’zi narsalar yodidan ko’tarildi. 
 Shundan so’ng u o’zining sondan 1 ni ayirish algoritmini o’ylab topdi. Uning fikricha sondan 1 ni ayirish quyidagicha bajariladi:
@@ -13,7 +13,7 @@ Kirish faylining yagona satrida ikkita butun son,N(2≤N≤10^9) va K(1≤K≤50
 Chiquvchi ma'lumotlar:
 Chiqish faylida Bilmasvoy o’z algoritmi yordamida N sonidan K marotaba 1 ni ayirganida hosil bo’ladigan natijani chop eting!
 
-Yechimi:
+Yechimi:"""
 n,k=map(int,input().split())
 i=1
 while i<=k:
